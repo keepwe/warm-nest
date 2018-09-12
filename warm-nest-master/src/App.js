@@ -29,8 +29,8 @@ class App extends Component {
 
 
         <section>
-           <Cart/>
-       
+          
+           <Order/>
             
         </section>
 

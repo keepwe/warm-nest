@@ -1,0 +1,95 @@
+
+
+/* 订单 */
+*{margin: 0;padding: 0}
+
+.steps {
+    width: 1190px;
+    height: 40px;
+    line-height: 40px;
+    margin: 50px auto 30px;
+  }
+  .steps li {
+    position: relative;
+    float: left;
+    margin: 0 3px;
+    width: 291px;
+    background: #C6C6C6;
+    color: #fff;
+    text-align: center;
+  }
+  .steps li.active {
+    width: 293px;
+    background: #3A3A3A;
+  }
+  .steps li span {
+    display: none;
+  }
+  .steps li.active span {
+    display: block;
+  }
+  .steps span {
+    position: absolute;
+    bottom: -20px;
+    left: 135px;
+    border: 10px solid #3A3A3A;
+    border-color: #3a3a3a transparent transparent;
+  }
+
+
+h4{margin-left: 40px;margin-top:30px}
+.tit{width: 1190px;height: 30px;border-top: 1px solid #333;margin: 0 35px;background:#f9f9f9 ;min-height: 100px;height: auto!important;}
+
+
+/* 地址 */
+.address{width: 900px;height: 350px;margin: 40px 0 40px 100px}
+.address h4 {margin:0;padding: 0}
+.address h4 span{color: gray;}
+.aaa{margin-top: 15px;width: 100%;height: 25px;}
+
+.ipthuo{height: 20px;width: 200px}
+.select1{height: 20px;width: 90px;margin-left: 20px}
+
+.iptaddress{width: 400px;height: 20px;}
+.iptemail{width: 200px;height: 20px;}
+
+.iptphone{width: 50px;height: 20px;}
+.iptphone2{width: 200px;height: 20px;}
+
+.btn1{width: 150px;height: 30px;background: dodgerblue;color: #fff;border: 0;outline: none}
+.btn2{width: 80px;height: 30px;background: gray;color: #fff;border: 0;margin-left: 10px;outline: none}
+
+
+.tit span{color: red;font-size: 12px}
+
+
+/* 配送 */
+.peisong{width: 900px;height: 150px;margin: 40px 0 40px 100px;}
+.bbb input{margin-left: 20px}
+.day input{width: 200px;height: 20px}
+.aaa .money{color: mediumvioletred;font-weight: bold;font-size: 14px}
+
+/* 发票 */
+.fapiao{width: 900px;height: 40px;margin: 40px 0 40px 100px;}
+.fapiao input{margin-left: 20px}
+
+/* 留言 */
+.liuyan{width: 900px;height: 40px;margin: 40px 0 40px 100px;min-height: 100px;height: auto!important;}
+.liuyan p{font-size: 12px;color: gray}
+
+/* 商品清单 */
+.goods{width: 900px;height: 40px;margin: 40px 0 40px 100px;border: 1px solid red;min-height: 100px;height: auto!important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "distpicker": "^2.0.4",
     "jquery": "^3.3.1",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
@@ -16,6 +17,7 @@
   },
   "devDependencies": {
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "zane-calendar": "^2.1.8"
   }
 }
