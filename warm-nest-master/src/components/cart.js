@@ -121,17 +121,17 @@ class Cart extends React.Component{
 											<a class="btn btn_white btn_130" href="../index.html">继续购物</a>
 											<button id="btnCheckOut" class="btn btn_gray btn_130 MR0" type="button">下一步</button>
 										</dd>
-							  	</dl>
+							        </dl>
 									<dl>
 								      	<dd  style={{
 													color:'#a51e2e',
 													fontSize:'14px',
 												}}>
-												</dd>
+										</dd>
 								  </dl>
 
 
-	                </div>
+	                            </div>
 							</div>
 					</div>
 

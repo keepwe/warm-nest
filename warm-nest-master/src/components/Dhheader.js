@@ -1,9 +1,17 @@
 import React from "react";
+import {BrowserRouter as Router,Route,Link,Redirect,Switch} from 'react-router-dom'
 
 class Dhheader extends React.Component{
 	constructor(props){
 		super(props)
 	}	
+
+	gocart(){
+	   alert("sss")
+		this.props.router.push("./cart")
+}
+
+
 	render(){
 		return(
 			<div>
@@ -34,8 +42,14 @@ class Dhheader extends React.Component{
 			        <li><a href="#">
 			          <span className="news_icon"></span>联系客服</a>
 			        </li>
-			        <li className="last" id="cart"><a href="./html/myCart.html">
-			          <span className="shopping_icon"></span>购物车</a>
+							<li className="last" id="cart" onClick={()=>this.gocart()}>
+								
+											<a href="">
+												<span className="shopping_icon"></span>购物车
+											</a>
+										
+
+
 			        </li>
 			      </ul>
 			    </div>

@@ -95,16 +95,88 @@ class Order extends React.Component{
 
 				<h4>商品清单</h4>
 				<div className="tit">
-				   <div className="goods">
-				   
+				   <ul className="goods">
+					   <li>
+						  <ul className="head">
+							 <li>商品名称</li> 
+							 <li>商品属性</li>
+							 <li>单价</li>
+							 <li>数量</li>
+							 <li>小计</li>
+							 <li>优惠券</li>
+						  </ul>
+					   </li>
+					   <li>
+						  <ul className=" list">
+							<li>Thalia 金沙水蓝香氛蜡烛</li> 
+							<li>蜡,/精油/玻璃 - 白色 规格: 直径9X高12CM</li>
+							<li>￥128.00</li>
+							<li>6</li>
+							<li>￥ 618.00</li>
+							<li>无</li>
+						  </ul>
+					 
+					   </li>
+				       <li>
+						  <ul className=" list">
+							<li>Thalia 金沙水蓝香氛蜡烛</li> 
+							<li>蜡,/精油/玻璃 - 白色 规格: 直径9X高12CM</li>
+							<li>￥128.00</li>
+							<li>6</li>
+							<li>￥ 618.00</li>
+							<li>无</li>
+						  </ul>
+					 
+					   </li>
 				 
-				 
-				   </div>
+				   </ul>
 				   
 				</div>
+                
+			   <div>
+				   
+			   <div class="summary_container">
+			   <div class="summary fr">
+			   <dl>
+					  <dt>
+						  <span class="product_num">商品数量总计: <strong id="productcount">1</strong> 件</span>商品金额（不含运费）:
+					  </dt>
+				  <dd id="totalPrice">￥7980.00</dd>
+			   </dl>
+			   <dl id="disdl" class="hide">
+				  <dt><span class="vip"></span>会员折扣金额 :</dt>
+				  <dd id="discount">-￥0.00</dd>
+			  </dl>
+              <dl style={{margin:10}}>运费：￥0.00</dl>
+			  <dl style={{margin:10}}>会员折扣金额 :  -￥0.00</dl>
+			  <dl style={{margin:10,Color:"blue",fontSize:12}}> <a href="">我要使用优惠券></a></dl>
+
+			  <dl class="PT30">
+				  <dt>合计 :</dt>
+				  <dd class="price" id="totalamount">￥7980.00</dd>
+			  </dl>
+			  <dl class="pT10">
+				  <dt>&nbsp;</dt>
+				  <dd>
+					  <a class="btn btn_white btn_130" href="../index.html">返回购物车</a>
+					  <button id="btnCheckOut" class="btn btn_gray btn_130 MR0" type="button">提交订单</button>
+				  </dd>
+			</dl>
+			  <dl>
+					<dd  style={{
+							  color:'#a51e2e',
+							  fontSize:'14px',
+						  }}>
+						  </dd>
+			</dl>
 
 
-
+</div>
+	  </div>
+	  
+	  <div className="tit222"></div>
+			 
+			   </div>
 
 			</div>
 		)

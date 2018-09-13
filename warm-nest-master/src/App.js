@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react';
-import {Router,Route,hashHistory,IndexRoute,IndexRedirect,Redirect} from 'react-router';
+import {BrowserRouter as Router,Route,Link,Redirect,Switch} from 'react-router-dom'
+
 //import {BrowserRouter as Router,Route,Link,Redirect} from 'react-router-dom';
 import $ from "jquery"
 
@@ -14,34 +15,27 @@ import Navheader from "./components/Navheader"
 
 import Cart from "./components/cart"
 import Order from "./components/order"
-
+import Section from "./components/section"
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      	<div id="header">
-        	<Dhheader />
-        	<Logo />
-        	<Navheader />
-        </div>
+          <Router>
 
-
-
-        <section>
-          
-           <Order/>
-            
-        </section>
-
-
-
-
-        
-        
-        
-        <Navfooter />
-        <Footer />
+            <Switch>
+                <Route path="/Dhheader" component={Dhheader}></Route>
+                <Route path="/Logo" component={Logo}></Route>
+                <Route path="/Navfooter" component={Navfooter}></Route>
+                <Route path="/Footer" component={Footer}></Route>
+                <Route path="/Navheader" component={Navheader}></Route>
+                <Route path="/cart" component={Cart}></Route>
+                <Route path="/order" component={Order}></Route>
+                <Route path="/section" component={Section}></Route>
+                
+                
+            </Switch>
+          </Router>
       </div>
     );
   }
