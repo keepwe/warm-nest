@@ -1,7 +1,5 @@
 import $ from "jquery"
 $(document).ready(function () {
-//var first = $(".table").firstChild;
-//var last = $(".table").lastChild;
   $(".autumn_btn_left").click(function () {
     let leftVal = parseInt($(".autumn_bg_box").css("left"));
     $(".autumn_bg_box").animate({left:leftVal+390},function () {
