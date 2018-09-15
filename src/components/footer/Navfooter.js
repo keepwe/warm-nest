@@ -1,6 +1,6 @@
 import React from "react";
-import s1 from '../img/Wechat.jpg';
-import s2 from '../img/tweet.jpg';
+import s1 from '../../img/Wechat.jpg';
+import s2 from '../../img/tweet.jpg';
 
 class Navfooter extends React.Component{
 	constructor(props){
@@ -62,7 +62,7 @@ class Navfooter extends React.Component{
 				      <strong className="phone_number">400-888-1916</strong>
 				      <dl className="search autoWidth">
 				        <dt>
-				          <label><input id="searchbox_foot" maxlength="60" type="text" className="allSearch"v />
+				          <label><input id="searchbox_foot" maxLength="60" type="text" className="allSearch" />
 				            <button type="button" className="search_btn">搜索
 				            </button>
 				          </label>

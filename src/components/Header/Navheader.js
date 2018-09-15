@@ -49,7 +49,7 @@ class Navheader extends React.Component{
 			      </dl>
 			      <div className="search_all">
 		        	<span className="ibefore"></span>
-		        	<input id="searchtext" type="text" maxlength="60" value="" autocomplete="off"/>
+		        	<input id="searchtext" type="text" defaultValue=""  maxLength="60"  autoComplete="off"/>
 		        	<button type="button" className="button">搜索</button>
 		        	<span className="iafter"></span>
 		        	<div className="search_menu hide">

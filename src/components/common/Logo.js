@@ -1,5 +1,5 @@
 import React from "react";
-import s1 from '../img/logo.png';
+import s1 from '../../img/logo.png';
 
 class Logo extends React.Component{
 	constructor(props){
