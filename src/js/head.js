@@ -16,7 +16,7 @@ function searchBoxFocusEvent() {
     searchMenuFillData($.trim($('#searchtext').val()));
 }
 function searchMenuFillData(keyword) {
-    if ($.trim(keyword) == "") {
+    if ($.trim(keyword) === "") {
         $(".search_menu").addClass("hide");
     }
 //  else {

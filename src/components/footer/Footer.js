@@ -1,9 +1,6 @@
 import React from "react";
 
 class Footer extends React.Component{
-	constructor(props){
-		super(props)
-	}	
 	render(){
 		return(
 			<div>
@@ -25,7 +22,7 @@ class Footer extends React.Component{
 			  </div>
 			  <div className="copyright">
 			    <div className="container clearfix">
-			      <p> Harbor House 安美西石贸易（浙江）有限公司版权所有 <span><a href="#">浙ICP备07505498号</a></span></p>
+			      <p> Harbor House 安美西石贸易（浙江）有限公司版权所有 <span><a href="">浙ICP备07505498号</a></span></p>
 			    </div>
 			  </div>
 			  </div>

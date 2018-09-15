@@ -47,7 +47,6 @@ function Broadcast() {
             $(".homebannerlist li").eq(index).siblings().css('opacity', 1).animate({ 'opacity': 0}, 500);
         }, 5000);
 	});
-
     $("#leftBtn").click(function(){
         index+=-1;
         if (index < 0) {

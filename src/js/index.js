@@ -1,7 +1,7 @@
 import $ from "jquery"
 $(document).ready(function () {
-  var first = $(".table").firstChild;
-  var last = $(".table").lastChild;
+  // var first = $(".table").firstChild;
+    //   // var last = $(".table").lastChild;
   $(".autumn_btn_left").click(function () {
     let leftVal = parseInt($(".autumn_bg_box").css("left"));
     $(".autumn_bg_box").animate({left:leftVal+390},function () {
@@ -9,16 +9,16 @@ $(document).ready(function () {
         $(".autumn_bg_box").css("left","-1335px");
       }
     });
-    if (leftVal ==-555){
+    if (leftVal ===-555){
       $(".table-block").removeClass("small_active");
       $(".table-block").eq(3).addClass("small_active");
-    }else if(leftVal == -945){
+    }else if(leftVal === -945){
       $(".table-block").removeClass("small_active");
       $(".table-block").eq(0).addClass("small_active");
-    }else if (leftVal == -1335) {
+    }else if (leftVal === -1335) {
       $(".table-block").removeClass("small_active");
       $(".table-block").eq(1).addClass("small_active");
-    }else if (leftVal==-165) {
+    }else if (leftVal===-165) {
       $(".table-block").removeClass("small_active");
       $(".table-block").eq(2).addClass("small_active");
     }
