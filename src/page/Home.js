@@ -109,5 +109,9 @@ class Home extends React.Component{
 			</div>
 		)
 	}
+	componentDidMount(){
+		Broadcast()
+	}
+
 }
 export default Home

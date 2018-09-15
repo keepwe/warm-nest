@@ -9,7 +9,7 @@ class Logo extends React.Component{
 		return(
 			<div>
 			  <h1 id="logo">
-			    <a href="index.html">
+			    <a href="/home">
 			      <img src={s1} />
 			    </a>
 			    <span>Harbor House</span>
