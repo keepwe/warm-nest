@@ -23,11 +23,7 @@ class App extends Component{
         </div>
         <Router>
         		<div>
-	        		<Link to="/home"></Link>
-	        		<Link to="/gowuche"></Link>
-	        		<Link to="/fenye"></Link>
-	        		<Link to="/liebiao"></Link>
-	        		<Link to="/xiangqing"></Link>	
+	        	
 	        		<Switch>
 	        			<Route path="/home" component={Home}></Route>
 	        			<Route path="/gouwuche" component={Gouwuche}></Route>
