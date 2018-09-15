@@ -34,9 +34,6 @@ var sty3={
 	marginLeft: -72+"px"
 }
 class Home extends React.Component{
-	constructor(props){
-		super(props)
-	}
 	render(){
 		return(
 			<div>

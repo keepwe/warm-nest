@@ -1,16 +1,13 @@
 import React from "react";
-import s1 from '../../img/logo.png';
+import l1 from '../../img/logo.png';
 
 class Logo extends React.Component{
-	constructor(props){
-		super(props)
-	}	
 	render(){
 		return(
 			<div>
 			  <h1 id="logo">
 			    <a href="/home">
-			      <img src={s1} />
+			      <img src={l1} alt="logo"/>
 			    </a>
 			    <span>Harbor House</span>
 			  </h1>

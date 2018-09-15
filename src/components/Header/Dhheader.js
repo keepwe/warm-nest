@@ -1,9 +1,6 @@
 import React from "react";
 
 class Dhheader extends React.Component{
-	constructor(props){
-		super(props)
-	}	
 	render(){
 		return(
 			<div>
@@ -34,7 +31,7 @@ class Dhheader extends React.Component{
 			        <li><a href="/">
 			          <span className="news_icon"></span>联系客服</a>
 			        </li>
-			        <li className="last" id="cart"><a href="/gouwuche">
+			        <li className="last" id="cart"><a href="/cart">
 			          <span className="shopping_icon"></span>购物车</a>
 			        </li>
 			      </ul>

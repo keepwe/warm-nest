@@ -6,11 +6,7 @@ import l2 from '../img/113622.jpg'
 import l3 from '../img/113623.jpg'
 import l4 from '../img/113624.jpg'
 import l5 from '../img/113625.jpg'
-class Liebiao extends React.Component{
-	constructor(props){
-		super(props)
-	}
-	
+class Liebiao extends React.Component{	
 	render(){
 		return(
 			<div>
@@ -37,7 +33,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l3} alt=""/>
 				        </a>
 				      </div>
@@ -50,7 +46,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l2} alt=""/>
 				        </a>
 				      </div>
@@ -63,7 +59,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l5} alt=""/>
 				        </a>
 				      </div>
@@ -76,7 +72,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l2} alt=""/>
 				        </a>
 				      </div>
@@ -89,7 +85,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l4} alt=""/>
 				        </a>
 				      </div>
@@ -102,7 +98,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l5} alt=""/>
 				        </a>
 				      </div>
@@ -115,7 +111,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l2} alt=""/>
 				        </a>
 				      </div>
@@ -128,7 +124,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l1} alt=""/>
 				        </a>
 				      </div>
@@ -141,7 +137,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l4} alt=""/>
 				        </a>
 				      </div>
@@ -154,7 +150,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l5} alt=""/>
 				        </a>
 				      </div>
@@ -167,7 +163,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l1} alt=""/>
 				        </a>
 				      </div>
@@ -180,7 +176,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l3} alt=""/>
 				        </a>
 				      </div>
@@ -193,7 +189,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l5} alt=""/>
 				        </a>
 				      </div>
@@ -206,7 +202,7 @@ class Liebiao extends React.Component{
 				    </div>
 				    <div class="product">
 				      <div class="img">
-				        <a href="#">
+				        <a href="">
 				          <img src={l1} alt=""/>
 				        </a>
 				      </div>

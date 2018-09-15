@@ -15,9 +15,11 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "distpicker": "^2.0.4",
     "jquery": "^3.3.1",
     "mockjs": "^1.0.1-beta3",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "zane-calendar": "^2.1.8"
   }
 }
