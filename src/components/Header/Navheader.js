@@ -11,40 +11,40 @@ class Navheader extends React.Component{
 			    <div id="nav">
 			      <dl>
 			        <dt className="first">
-			          <a href="#">家具</a>
+			          <a href="/fenye">家具</a>
 			        </dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
-			        <dt><a href="./html/listItem.html">灯具 & 墙饰</a></dt>
+			        <dt><a href="/fenye">灯具 & 墙饰</a></dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
 			        <dt>
-			          <a href="./html/listItem.html">
+			          <a href="/fenye">
 			            窗帘 & 地毯</a>
 			        </dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
 			        <dt>
-			          <a href="./html/listItem.html">
+			          <a href="/fenye">
 			            家纺</a>
 			        </dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
 			        <dt>
-			          <a href="./html/listItem.html">装饰品</a></dt>
+			          <a href="/fenye">装饰品</a></dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
-			        <dt><a href="#">餐厨用品</a></dt>
+			        <dt><a href="/fenye">餐厨用品</a></dt>
 			        <dd></dd>
 			      </dl>
 			      <dl>
 			        <dt>
-			          <a href="#">儿童</a></dt>
+			          <a href="/fenye">儿童</a></dt>
 			        <dd></dd>
 			      </dl>
 			      <div className="search_all">
