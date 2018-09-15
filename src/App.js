@@ -17,25 +17,21 @@ class App extends Component{
   render() {
     return (
       <div className="App">
-      	<div id="header">
-        	<Dhheader />
-        	<Logo />
-        	<Navheader />
+    		<Dhheader />
+    		<Logo />	
+      <Router>
+      	<div>
+						<Switch>
+        			<Route path="/home" component={Home}></Route>
+        			<Route path="/cart" component={Cart}></Route>
+            	<Route path="/order" component={Order}></Route>
+        			<Route path="/fenye" component={Fenye}></Route>
+        			<Route path="/liebiao" component={Liebiao}></Route>
+        			<Route path="/xiangqing" component={Xiangqing}></Route>
+        			<Redirect to="/home"/>
+	        	</Switch>
         </div>
-        <Router>
-        		<div>
-	        	
-	        		<Switch>
-	        			<Route path="/home" component={Home}></Route>
-	        			<Route path="/cart" component={Cart}></Route>
-                <Route path="/order" component={Order}></Route>
-	        			<Route path="/fenye" component={Fenye}></Route>
-	        			<Route path="/liebiao" component={Liebiao}></Route>
-	        			<Route path="/xiangqing" component={Xiangqing}></Route>
-	        			<Redirect to="/home"/>
-	        		</Switch>
-        		</div>
-        </Router> 
+      </Router> 
         <Navfooter />
         <Footer />
       </div>

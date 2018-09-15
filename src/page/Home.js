@@ -16,6 +16,7 @@ import s9 from '../img/index04.jpg'
 import s10 from '../img/index11.jpg'
 import s11 from '../img/banner.jpg'
 import s12 from '../img/banner01.jpg'
+import Navheader from "../components/Header/Navheader"
 
 var sty1={
 	background:`url(${s11}) center center no-repeat`,
@@ -37,6 +38,7 @@ class Home extends React.Component{
 	render(){
 		return(
 			<div>
+				<Navheader />
 				{/*<!--banner-->*/}
 				<div className="homebanner">
 				  <ul className="homebannerlist">

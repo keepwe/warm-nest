@@ -1,6 +1,12 @@
 import React from "react";
 
 class Dhheader extends React.Component{
+	tap1(){
+		this.props.history.push("/login")
+	}
+	tap2(){
+		this.props.history.push("/register")
+	}
 	render(){
 		return(
 			<div>
@@ -26,7 +32,11 @@ class Dhheader extends React.Component{
 			      <ul className="siteNav fr">
 			        <li id="username">您好，欢迎来到 HARBOR HOUSE！</li>
 			        <li id="tc" className="hide">退出</li>
-			        <li id="login"><a href="/">登录/注册</a>
+			        <li id="login">
+			        	<a href="">
+			        		<span onClick={this.tap1.bind(this)}>登录/</span>
+			        		<span onClick={this.tap2.bind(this)}>注册</span>
+			        	</a>
 			        </li>
 			        <li><a href="/">
 			          <span className="news_icon"></span>联系客服</a>

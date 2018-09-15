@@ -1,5 +1,6 @@
 import React from "react"
 import "../css/listItem.css"
+import Navheader from "../components/Header/Navheader"
 
 import l1 from '../img/113621.jpg'
 import l2 from '../img/113622.jpg'
@@ -14,6 +15,7 @@ class Liebiao extends React.Component{
 	render(){
 		return(
 			<div>
+				<Navheader />
 				<div className="container clearfix">
 				  <div className="breadCrumbs">
 				    <a href="">首页</a>
