@@ -1,10 +1,69 @@
+import $ from "jquery"
 import React from "react";
 require('../css/cart.css');
 
+
 class Cart extends React.Component{
 	constructor(props){
-		super(props)
-	}	
+		super(props),
+		
+		this.state={
+			list:[],
+			checked:true,
+			allChecked:false,			
+		}
+		this.danxuan = this.danxuan.bind(this)
+		this.add = this.add.bind(this)
+	}
+	
+	quanxuan(item){
+		
+		if(this.state.allChecked==false) {
+			for(var i = 0; i < this.state.list.length; i++) {
+				var item = this.state.list[i];
+				var checked=item.checked;
+				item.checked = true;
+				console.log(item)
+				this.setState({checked:true})
+				console.log(this.state.allChecked)
+				
+			}
+		} else {  //取消全选
+			 for(var i = 0; i < this.state.list.length; i++) {
+			 	var item = this.state.list[i];
+			     item.checked = false;
+				 this.setState({checked:false})
+				 console.log(this.state.allChecked)
+			 }
+		}
+		this.state.allChecked = !this.state.allChecked;
+	}
+	
+	 danxuan(item){
+	// 	// var selected = this.state.list[i].checked;
+	 	console.log("0000")
+		// if(selected==true){
+		// 	this.state.allChecked==false
+		// 	selected==false
+		// }else{
+		// 	this.state.allChecked==true
+		// 	selected==true
+		// }
+	//}
+	// handleClick(item,event) {
+	// 	console.log("11111")
+	  }
+	
+//购物车加
+      add(){
+		  console.log("555")
+	  }
+
+
+
+//购物车减
+
+
 	render(){
 		return(
 			<div>
@@ -27,7 +86,7 @@ class Cart extends React.Component{
 									<div className="shoping_th">
 										<ul>
 											<li className="checkbox">
-												<label><input id="selectAll" className="Cinput" type="checkbox" />全选</label>
+												<label><input id="selectAll" className="Cinput" type="checkbox" onClick={this.quanxuan.bind(this)} defaultChecked={this.state.allChecked}/>全选</label>
 											</li>
 											<li className="product_name">商品信息</li>
 											<li className="product_price">单价</li>
@@ -35,66 +94,61 @@ class Cart extends React.Component{
 											<li className="product_operate">操作</li>
 										</ul>
 									</div>
+
+
 									<div id="items">
 
 
 
-										<div className="shoping_td  clearfix">
+									{
+										this.state.list.map(function(item,i){
+											var _this = this;
+											return(
+												<div className="shoping_td  clearfix" key={i}>
 											 <ul >
-												<li className="checkbox clearfix">
-												<div className="item_pic">
-												 <input type="checkbox"  className="Cinput" name="checkItem" />
-												   <a target="_blank" for="selector_113623_01_Photo" href="">
-													 <img name="picture" width="150" height="150" title="Farmhouse 餐桌" src="http://www.harborhousehome.com/UploadFile/Sku/2/220_220/113623.jpg"/>
-												   </a>
-												  </div>
-											  </li>
-                        <li className="product_name2">
-									         <a href="#">Farmhouse 餐桌</a>
-														<p>国产榆木/国产榆木单板/环保人造板 - 水洗棕色规格: 直径132X高76CM</p>
+												<li className="checkbox clearfix" >
+												    <div className="item_pic">
+													<input type="checkbox"  className="Cinput" name="checkItem" checked={item.checked} onClick={()=>{this.danxuan(i)}}/>
+														<a target="_blank" for="selector_113623_01_Photo" href="">
+														<img name="picture" width="150" height="150" title="Farmhouse 餐桌" src={item.pimg}/>
+														</a>
+													</div>
+												</li>
+												<li className="product_name2">
+														<a href="#">{item.pname}</a>
+														<p>{item.pdesc}</p>
 												</li>
 												<li className="product_price product_price2">
-											  	<div className="item_price"><p >￥7980.00</p></div>
+													<div className="item_price"><p >{item.pprice}</p></div>
 												</li>
 												<li className="product_num product_num2">
-													  <div><span>-</span><p>8</p><span>+</span></div>
+														<div><span>-</span><p>8</p><span onClick={()=>{this.add(i)}}>+</span></div>
 												</li>
 												<li className="product_chaozuo">
-													  <a href="#">[ 删除 ]</a>
+														<a href="#">[ 删除 ]</a>
 												</li>
 												
 											</ul> 
-										</div>
+
+									    </div>
+											)
+										})
+									}
 
 
-										<div className="shoping_td  clearfix">
-										<ul >
-										 <li className="checkbox clearfix">
-										 <div className="item_pic">
-											<input type="checkbox"  className="Cinput" name="checkItem" />
-												<a target="_blank" for="selector_113623_01_Photo" href="">
-												<img name="picture" width="150" height="150" title="Farmhouse 餐桌" src="http://www.harborhousehome.com/UploadFile/Sku/2/220_220/113623.jpg"/>
-												</a>
-											 </div>
-										 </li>
-										 <li className="product_name2">
-												<a href="#">Farmhouse 餐桌</a>
-												 <p>国产榆木/国产榆木单板/环保人造板 - 水洗棕色规格: 直径132X高76CM</p>
-										 </li>
-										 <li className="product_price product_price2">
-											 <div className="item_price"><p >￥7980.00</p></div>
-										 </li>
-										 <li className="product_num product_num2">
-												 <div><span>-</span><p>8</p><span>+</span></div>
-										 </li>
-										 <li className="product_chaozuo">
-												 <a href="#">[ 删除 ]</a>
-										 </li>
-										 
-									 </ul> 
-								 </div>
+										
+									  
+
+
+
+
+
+
+
 
 									</div>
+
+
 							</div>
 							
 							
@@ -146,6 +200,21 @@ class Cart extends React.Component{
 		)
 	}
 	
+
+	componentWillMount(){
+		var _this=this;
+		$.ajax({
+			type:"get",
+			url:"http://jx.xuzhixiang.top/ap/api/cart-list.php",
+			data:{id:111},
+			dataType:'json',
+			async:true,
+			success:function(data){
+				console.log(data.data)
+				_this.setState({list:data.data})
+			}
+		});
+	}
 	
 }
 export default Cart;

@@ -22,19 +22,22 @@ class App extends Component {
     return (
       <div className="App">
           <Router>
-
-            <Switch>
-                <Route path="/Dhheader" component={Dhheader}></Route>
-                <Route path="/Logo" component={Logo}></Route>
-                <Route path="/Navfooter" component={Navfooter}></Route>
-                <Route path="/Footer" component={Footer}></Route>
-                <Route path="/Navheader" component={Navheader}></Route>
-                <Route path="/cart" component={Cart}></Route>
-                <Route path="/order" component={Order}></Route>
-                <Route path="/section" component={Section}></Route>
-                
-                
-            </Switch>
+            <div>
+               <Dhheader/>
+               <Logo/>
+               <Navheader/>
+               <Cart/>
+               <Section/>
+              <Switch>
+                  
+                  <Route path="/cart" component={Cart}></Route>
+                  <Route path="/order" component={Order}></Route>
+                  <Route path="/section" component={Section}></Route>
+                  
+                  
+              </Switch>
+              <Navfooter/>
+            </div>
           </Router>
       </div>
     );
