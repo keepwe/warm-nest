@@ -1,3 +1,4 @@
+
 import React from "react";
 import "../css/fenye.css"
 import {BrowserRouter as Router,Route,Link,Redirect,Switch} from 'react-router-dom';
@@ -80,14 +81,9 @@ var sty10={
 }
 
 
-
-
-
+import Navheader from "../components/Header/Navheader"
 
 class Fenye extends React.Component{
-	constructor(props){
-		super(props)
-	}
 	
 	render(){
 		return(
@@ -277,6 +273,10 @@ class Fenye extends React.Component{
 	    
 	    			</div>
 				</div>
+=======
+				<Navheader />
+				<h1>分页</h1>
+>>>>>>> 46c2fd7f2644287ef812bb2cffcce9e22ae235a8
 			</div>
 		)
 	}
