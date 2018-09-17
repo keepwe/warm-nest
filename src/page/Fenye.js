@@ -1,5 +1,6 @@
 
 import React from "react";
+import Navheader from "../components/Header/Navheader"
 import "../css/fenye.css"
 import {BrowserRouter as Router,Route,Link,Redirect,Switch} from 'react-router-dom';
 import s1 from '../img/jiantou.jpg'
@@ -81,13 +82,12 @@ var sty10={
 }
 
 
-import Navheader from "../components/Header/Navheader"
-
 class Fenye extends React.Component{
 	
 	render(){
 		return(
 			<div>
+				<Navheader />
 				<div className="container">
 					<div className="breadCrumbs">
        					<a href="#">首页&nbsp;&nbsp;</a>&gt;
@@ -273,10 +273,8 @@ class Fenye extends React.Component{
 	    
 	    			</div>
 				</div>
-=======
-				<Navheader />
-				<h1>分页</h1>
->>>>>>> 46c2fd7f2644287ef812bb2cffcce9e22ae235a8
+				
+
 			</div>
 		)
 	}
