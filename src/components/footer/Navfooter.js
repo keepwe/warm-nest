@@ -3,9 +3,6 @@ import s1 from '../../img/Wechat.jpg';
 import s2 from '../../img/tweet.jpg';
 
 class Navfooter extends React.Component{
-	constructor(props){
-		super(props)
-	}	
 	render(){
 		return(
 			<div>
