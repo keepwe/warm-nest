@@ -10,6 +10,7 @@ import Home from "./page/Home"
 import Gouwuche from "./page/Gouwuche"
 import Fenye from "./page/Fenye"
 import Liebiao from "./page/Liebiao"
+import Lbdetail from "./page/Lbdetail"
 import Xiangqing from "./page/Xiangqing"
 
 class App extends Component{
@@ -23,16 +24,14 @@ class App extends Component{
         </div>
         <Router>
         		<div>
-	        		<Link to="/home"></Link>
-	        		<Link to="/gowuche"></Link>
-	        		<Link to="/fenye"></Link>
-	        		<Link to="/liebiao"></Link>
-	        		<Link to="/xiangqing"></Link>	
+	        		
 	        		<Switch>
 	        			<Route path="/home" component={Home}></Route>
 	        			<Route path="/gouwuche" component={Gouwuche}></Route>
 	        			<Route path="/fenye" component={Fenye}></Route>
 	        			<Route path="/liebiao" component={Liebiao}></Route>
+	        			<Route path="/lbdetail" component={Lbdetail}></Route>
+	        			
 	        			<Route path="/xiangqing" component={Xiangqing}></Route>
 	        			<Redirect to="/home"/>
 	        		</Switch>

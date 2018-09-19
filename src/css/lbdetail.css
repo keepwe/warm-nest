@@ -1,0 +1,124 @@
+.detbox{
+	width: 1180px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
+.bigimg{
+	width: 619px;
+	height: 619px;
+	float: left;
+}
+
+
+.detright{
+	width: 460px;
+	float: right;
+	overflow: hidden;
+}
+
+
+.detboxt h3{
+	font-size: 16px;
+	color: #333;
+	margin: 6px 0;
+}
+
+.detboxt p{
+	font-size: 14px;
+	color: #808285;
+	margin: 11px 0;
+}
+.detboxt span{
+	float: left;
+	font-size: 12px;
+	color: #808285;
+	margin: 0 0 19px;
+	text-decoration: line-through;
+}
+.detboxt strong{
+	float: left;
+	font-size: 12px;
+	color: #a32b3f;
+	margin: 0 12px 19px;
+}
+.detboxt .detimg{
+	float: left;
+	
+	clear: left;
+}
+
+.detimg img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-right: 5px;
+	border:1px solid #d1d3d4 ;
+}
+
+
+
+.detboxc{
+	float: left;
+	clear: left;
+	margin-top: 70px;
+}
+
+.detboxc span{
+	float: left;
+	clear: left;
+	margin: 10px 0;
+}
+.detboxc strong{
+	float: left;
+	margin: 10px 0;
+	margin-left: 20px;
+	font-weight: normal;
+}
+
+
+
+
+.detboxc img{
+	width: 40px;
+	height: 40px;
+	margin: 10px 20px;
+	float: left;
+	border: 1px solid #333;
+	
+}
+
+.detboxc p{
+	float: left;
+	margin: 10px 0;
+	margin-left: 20px;
+	padding: 2px 2px;
+	border: 1px solid #d1d3d4;
+	
+}
+
+
+.detboxc input{
+	float: left;
+	width: 50px;
+	margin: 10px 20px;
+}
+
+.headbox{
+	width: 100%;
+}
+
+
+button{
+	float: left;
+	margin-top: 88px;
+	width: 200px;
+	height: 40px;
+	border-radius:5px ;
+	color: white;
+	line-height: 40px;
+	font-size: 26px;
+	border: 1px solid #D1D3D4;
+	background: greenyellow;
+}
