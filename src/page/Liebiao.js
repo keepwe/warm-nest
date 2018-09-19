@@ -17,17 +17,17 @@ class Liebiao extends React.Component{
 	
 	render(){
 		return(
-			<div class='lbbigbox'>
+			<div className='lbbigbox'>
 				<div className='headbox'>
 					首页&gt;装饰&gt;摆件&gt;详情
 				</div>
-				<div class='lbmemu'>
-					<div class='lbmemut'>
+				<div className='lbmemu'>
+					<div className='lbmemut'>
 						
 					
 					</div>
 				
-					<div class='lbvip'>
+					<div className='lbvip'>
 						<h3>Welcome to join</h3>
 						<p>members of us</p>
 						<p>website</p>
@@ -39,12 +39,12 @@ class Liebiao extends React.Component{
 				</div>
 				
 				<div id='lbbox'>
-					<div class='lbtop'>
+					<div className='lbtop'>
 						<img src={top} />
 					
 					</div>
 					
-					<div class='lbsearch'>
+					<div className='lbsearch'>
 						<select name="">
 							<option value="">价格</option>
 							<option value="">销量</option>
@@ -59,16 +59,16 @@ class Liebiao extends React.Component{
 					</div>
 					
 					
-					<div class='lblist'>
+					<div className='lblist'>
 					
 						
 						
-						<div class="product">
-					      <div class="img">
+						<div className="product">
+					      <div className="img">
 					        <a href="/lbdetail">
 					          <img src={l3} alt="" />
 					        </a>
-					        <img class='lbsimg' src={l3} />
+					        <img className='lbsimg' src={l3} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -76,7 +76,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -87,12 +87,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					        <a href="/lbdetail">
 					          <img src={l4} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l4} />
+					      <img className='lbsimg' src={l4} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -100,7 +100,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥809-￥1232</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -109,12 +109,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l1} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l1} />
+					      <img className='lbsimg' src={l1} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -122,7 +122,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥809-￥1232</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -132,12 +132,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l3} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l3} />
+					      <img className='lbsimg' src={l3} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -145,7 +145,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -154,12 +154,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l2} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l2} />
+					      <img className='lbsimg' src={l2} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -167,7 +167,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥809-￥1232</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -177,12 +177,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l5} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l5} />
+					      <img className='lbsimg' src={l5} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -190,7 +190,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -198,12 +198,12 @@ class Liebiao extends React.Component{
 					    </div>
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l1} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l1} />
+					      <img className='lbsimg' src={l1} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -211,7 +211,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥809-￥1232</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -219,12 +219,12 @@ class Liebiao extends React.Component{
 					    </div>
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l4} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l4} />
+					      <img className='lbsimg' src={l4} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -232,7 +232,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -241,12 +241,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l1} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l1} />
+					      <img className='lbsimg' src={l1} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -254,7 +254,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥409-￥532</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -264,12 +264,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l3} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l3} />
+					      <img className='lbsimg' src={l3} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -277,7 +277,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -286,12 +286,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l5} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l5} />
+					      <img className='lbsimg' src={l5} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -299,7 +299,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥409-￥532</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -309,12 +309,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l4} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l4} />
+					      <img className='lbsimg' src={l4} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -322,7 +322,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -331,12 +331,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l2} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l2} />
+					      <img className='lbsimg' src={l2} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -344,7 +344,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥408</span>	<em>New Sale</em>
 					        
 					      </p>
@@ -354,12 +354,12 @@ class Liebiao extends React.Component{
 					    
 					    
 					    
-					    <div class="product">
-					      <div class="img">
+					    <div className="product">
+					      <div className="img">
 					         <a href="/lbdetail">
 					          <img src={l1} alt="" />
 					        </a>
-					      <img class='lbsimg' src={l1} />
+					      <img className='lbsimg' src={l1} />
 					      </div>
 					      <h4>
 					      <a href="#">
@@ -367,7 +367,7 @@ class Liebiao extends React.Component{
 					      </a>
 					      
 					      </h4>
-					      <p class="price ">
+					      <p className="price ">
 					        <span>￥409-￥532</span>	<em>New Sale</em>
 					        
 					      </p>
