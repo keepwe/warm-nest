@@ -63,11 +63,6 @@ class Lbdetail extends React.Component{
 	}
 	
 	componentWillMount(){
-//		tap(e){
-//				console.log($(e.currentTarget))
-//				$('.detboxc p').css({'background':'#f2f2f2'})
-//				$(e.currentTarget).css({'background':'#02d356'})
-//			}
 	}
 	
 	
